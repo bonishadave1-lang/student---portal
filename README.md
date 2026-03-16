@@ -1,5 +1,4 @@
-# student---portal
-<!DOCTYPE html>
+
 <html ng-app="studentApp">
 <head>
     <meta charset="UTF-8">
@@ -225,7 +224,7 @@
                 $scope.selectedStudent = null;
             };
 
-            $scope.closeDetails = function() { $scope.selectedStudent = null; };
+            $scope.closeDetails = function() { $scope.selectemdStudent = null; };
         });
 
         app.controller("LoginController", function($scope, $location, DataStore, $rootScope) {
